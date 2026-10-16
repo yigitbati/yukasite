@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kurumsal | Yuka Kitap Kırtasiye</title>
+  
+  <!-- FontAwesome İkonları -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- CSS Dosyası -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Header -->
+  <header id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Yuka Kitap Kırtasiye ana sayfa">
+        <img src="Images/logo.png" alt="Yuka Kitap Kırtasiye Logo">
+      </a>
+      
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menüyü aç/kapat">
+      
+      <nav aria-label="Ana menü">
+        <ul>
+          <li class="dropdown active">
+            <a href="sayfa.html" class="drop-btn">Kurumsal <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="sayfa.html">Hakkımızda</a></li>
+              <li><a href="sayfa.html">Misyon ve Vizyon</a></li>
+              <li><a href="sayfa.html">Kalite Politikamız</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#urunler">Ürünlerimiz</a></li>
+          <li><a href="index.html#markalar">Markalarımız</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="index.html#sube">İletişim</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-social">
+        <a href="https://www.instagram.com/yukakitap" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <label for="nav-toggle" class="burger" aria-hidden="true"><i class="fas fa-bars"></i></label>
+    </div>
+  </header>
+
+  <main>
+    <!-- Üst Kısım: Sayfa Başlığı (Arka planı ana sayfayla tamamen aynı yapıldı) -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Kurumsal</h1>
+        <p>Yuka Kitap Kırtasiye hakkında merak ettiğiniz her şey</p>
+      </div>
+    </section>
+
+    <!-- İçerikleri Saran Yüzen Kutu (Sol: İçerik, Sağ: Hızlı Kısayollar) -->
+    <div class="boxed-content-wrapper" style="margin-top: -40px; margin-bottom: 60px;">
+      <section class="page-content-section">
+        <div class="container corporate-grid">
+          
+          <!-- SOL TARAFI: Ana İçerik Alanı -->
+          <div class="corporate-main-content">
+            
+            <!-- Hakkımızda Bölümü -->
+            <div id="hakkimizda" class="corp-block">
+              <h2>Hakkımızda</h2>
+              <p>Yuka Kitap Kırtasiye, 2023 yılından bu yana Elazığ'da öğrencilere, ofislere, öğretmenlere ve tüm kitapseverlere güvenle hizmet vermektedir. Kurucumuz M. Fatih Batı öncülüğünde yola çıktığımız ilk günden bu yana kaliteli ürün, uygun fiyat ve güler yüzlü hizmet prensibinden asla ödün vermedik.</p>
+              <p>Geniş ürün yelpazemiz içerisinde okul ve ofis kırtasiye malzemelerinin yanı sıra, zengin kitap çeşitleri, hobi ve sanat ürünleri ile her yaşa hitap eden eğitici oyuncaklar yer almaktadır.</p>
+            </div>
+
+            <hr class="corp-divider">
+
+            <!-- Misyon ve Vizyon Bölümü -->
+            <div id="misyon-vizyon" class="corp-block">
+              <h2>Misyon ve Vizyonumuz</h2>
+              <h3>Misyonumuz</h3>
+              <p>Müşterilerimizin ve öğrencilerimizin tüm kırtasiye, eğitim ve hobi ihtiyaçlarını en kaliteli markalarla, en uygun fiyat politikasıyla buluşturmak; güler yüzlü ve güvenilir bir alışveriş deneyimi sunmaktır.</p>
+              
+              <h3>Vizyonumuz</h3>
+              <p>Elazığ başta olmak üzere bölgede eğitim ve kırtasiye sektörünün öncüsü olmak, yenilikleri yakından takip ederek her geçen gün büyüyen ürün çeşitliliğimizle müşterilerimizin ilk tercihi kalmaya devam etmek.</p>
+            </div>
+
+            <hr class="corp-divider">
+
+            <!-- Kalite Politikamız Bölümü -->
+            <div id="kalite-politikasi" class="corp-block">
+              <h2>Kalite Politikamız</h2>
+              <p>Yuka Kitap Kırtasiye olarak sunduğumuz her üründe insan sağlığına uygun, çevre dostu ve yüksek kalite standartlarına sahip markalarla çalışıyoruz. "Her ürünü kendi ailemiz için seçer gibi seçiyoruz" felsefemizle, mağazamızdan mutlu ayrılan her müşteri bizim en büyük kazancımızdır.</p>
+            </div>
+
+          </div>
+
+          <!-- SAĞ TARAFI: Hızlı Erişim / Kısa Yol Menüsü (Sidebar) -->
+          <aside class="corporate-sidebar">
+            <div class="sidebar-box">
+              <h3>Hızlı Erişim</h3>
+              <ul class="sidebar-links">
+                <li><a href="#hakkimizda"><i class="fas fa-chevron-right"></i> Hakkımızda</a></li>
+                <li><a href="#misyon-vizyon"><i class="fas fa-chevron-right"></i> Misyon ve Vizyon</a></li>
+                <li><a href="#kalite-politikasi"><i class="fas fa-chevron-right"></i> Kalite Politikamız</a></li>
+                <li><a href="index.html#urunler"><i class="fas fa-chevron-right"></i> Öne Çıkan Ürünler</a></li>
+                <li><a href="index.html#markalar"><i class="fas fa-chevron-right"></i> Markalarımız</a></li>
+                <li><a href="index.html#sube"><i class="fas fa-chevron-right"></i> İletişim Bilgileri</a></li>
+              </ul>
+            </div>
+
+            <!-- Destek / Bilgi Kutusu -->
+            <div class="sidebar-support-box">
+              <i class="fas fa-headset"></i>
+              <h4>Yardıma mı İhtiyacınız Var?</h4>
+              <p>Ürünler ve stok durumu hakkında bilgi almak için bizi hemen arayın.</p>
+              <a href="tel:+904240000000" class="btn"><i class="fas fa-phone"></i> Ara: 0424 000 00 00</a>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- WhatsApp Sabit Buton -->
+  <a href="https://wa.me/905000000000?text=Merhaba%2C%20bilgi%20almak%20istiyorum." class="whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp ile yazın"><i class="fab fa-whatsapp"></i></a>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="footer-logo">
+          <img src="Images/logo.png" alt="Yuka Kitap Kırtasiye Logo">
+        </a>
+        <p>Elazığ'da kitap, kırtasiye, okul ve ofis ürünlerinde güvenilir çözüm ortağınız.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/yukakitap" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hızlı Bağlantılar</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fas fa-angle-right"></i> Ana Sayfa</a></li>
+          <li><a href="sayfa.html"><i class="fas fa-angle-right"></i> Kurumsal</a></li>
+          <li><a href="index.html#urunler"><i class="fas fa-angle-right"></i> Ürünlerimiz</a></li>
+          <li><a href="index.html#markalar"><i class="fas fa-angle-right"></i> Markalarımız</a></li>
+          <li><a href="index.html#sube"><i class="fas fa-angle-right"></i> İletişim</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>İletişim & Saatler</h4>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone"></i> 0 (424) 000 00 00</li>
+          <li><i class="fas fa-envelope"></i> info@ornek.com</li>
+        </ul>
+        <ul class="footer-hours">
+          <li><span>Pzt - Cmt</span><span>08:30 - 20:00</span></li>
+          <li><span>Pazar</span><span>Kapalı</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>E-Bülten</h4>
+        <p>Kampanya ve indirimlerden anında haberdar olmak için abone olun.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="E-posta adresiniz..." required>
+          <button type="submit" aria-label="Abone Ol"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="copyright">© 2023 Yuka Kitap Kırtasiye | Kurucu: M. Fatih Batı</div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      const header = document.getElementById('site-header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>
